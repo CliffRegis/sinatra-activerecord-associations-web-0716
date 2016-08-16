@@ -7,7 +7,9 @@ class CreateCats < ActiveRecord::Migration
     end
   end
   
+  
   def down
     drop_table :cats
   end
 end
+#same as def change method
